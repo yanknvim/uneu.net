@@ -1,7 +1,7 @@
 {
 	"headers":[
 		{
-			"source": "/.well-known/:path*",
+			"source": "/.well-known/(.*)",
 			"headers": [{ "key": "Access-Control-Allow-Origin", "value": "*" }]
 		}
 	]
